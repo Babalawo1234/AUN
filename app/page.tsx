@@ -1,15 +1,10 @@
 import Link from 'next/link';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import AcmeLogo from '@/app/ui/acme-logo';
+import AcmeLogo from '@/app/acme-logo';
 import styles from '@/app/ui/home.module.css';
-import { Inter, Lusitana } from 'next/font/google';
+import { lusitana } from '@/app/fonts';
 import Image from 'next/image';
-export const inter = Inter({ subsets: ['latin'] });
 
-export const lusitana = Lusitana({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-});
 
 export default function Page() {
   return (
